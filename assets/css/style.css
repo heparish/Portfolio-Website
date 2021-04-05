@@ -98,7 +98,7 @@ ul#horizontal-list {
   margin-top: 0;
   margin-bottom: 20px;
 	}
-	ul#horizontal-list li {
+ul#horizontal-list li {
 		display: inline right;
 	}
 
@@ -112,15 +112,9 @@ h2 {
     border-right-style:solid;
     border-right-width: 5px;
 }
-/*
-h2, p {
-   display: inline-block;
-   padding: 30px;
-}
-*/
+
 .aside {
     display: left;
-
 }
 
 .aboutMe {
@@ -140,31 +134,56 @@ p {
   font-size: medium;
 }
 
+/* I cannot fire out how to get the boxes to line up how I want*/
 
 .row {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: flex-end;
 }
 
 .container {
   flex: 4;
+  align-items: center;
   padding: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex-flow: column wrap;
   justify-content: center;
 }
-
 .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
+    margin: 20px 20px 20px 20px;
     flex: 1
     object-fit: contain;
     background-color: #b9C6ae;
+    border-radius: 8px;
+    transition: all 0,5s ease-in-out;
   }
+
+.cardHeader{
+  height: 35px;
+  color: #d68c45;
+  font-weight:inherit;
+  padding-top: 7px;
+  padding-left: 30px;
+  border-radius: 4px;
+}
+
+.card:hover {
+  box-shadow: inset 0px 0px 8px rgba(254,254,227,1), 0 0 15px rgba(255,201,185,1);
+}
+
+.imgCard{
+  padding: 24px 10px 10px 10px;
+}
 
 .box {
     color: #4c956c;
@@ -182,6 +201,7 @@ p {
 .work{
   display: flex;
   padding: 30px;
+  padding-left: 62px;
 }
 
 ul.contact {
