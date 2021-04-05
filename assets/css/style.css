@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
   }
 
 body {
@@ -53,13 +52,21 @@ h1 {
     color: #ffc9b9;
   }
 
-  mark {
+.avatar{
+  width: 104px;
+  height: 122px;
+  border-radius: 50%;
+}
+
+mark {
     background-color: #b9C6ae;
     font-family: 'Franklin Gothic Medium';
     color: #ffc9b9;
+    height: 132px;
+    padding-right: 15px;
   }
 
-  .table {
+.table {
     display: table right; 
     margin-right: 40px;  
     margin: 0 auto;
@@ -134,7 +141,7 @@ p {
   font-size: medium;
 }
 
-/* I cannot fire out how to get the boxes to line up how I want*/
+/* I cannot figure out how to get the boxes to line up how I want*/
 
 .row {
   display: flex;
