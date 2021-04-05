@@ -10,6 +10,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
+    background: rgb(254,254,227);
+    background: linear-gradient(0deg, rgba(254,254,227,1) 40%, rgba(254,236,212,1) 64%, rgba(255,201,185,1) 92%);
   }
 
 header {
@@ -100,73 +102,101 @@ ul#horizontal-list {
 		display: inline right;
 	}
 
-h2,h3,h4 {
+h2 {
     display: inline-block;
     padding: 30px;
     color: #d68c45;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 200%;
+    font-size: 250%;
     border-right-color: #4c956c;
     border-right-style:solid;
     border-right-width: 5px;
 }
+/*
 h2, p {
    display: inline-block;
    padding: 30px;
 }
-
-h3, .container, .card, .box {
-   display: inline-block;
-   flex-direction: row;
-  flex-wrap: wrap;
-   padding: 30px;
-}
-
-h4, p {
-   display: inline-block;
-   padding: 30px;
-}
-
+*/
 .aside {
     display: left;
 
 }
 
+.aboutMe {
+  display: flex;
+  padding: 30px;
+}
+
+.aboutMe, p{
+  border-top-width: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 47px;
+}  
+
+p {
+  display: right;
+  font-size: medium;
+}
+
+
 .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 .container {
-    flex: 4;
-    background-color: #ffc9b9;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
+  flex: 4;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
-    flex: 0 0 400px;
+    flex: 1
+    object-fit: contain;
+    background-color: #b9C6ae;
   }
 
 .box {
     color: #4c956c;
+    background-color: #4c956c;
+}
+
+.container, .card, .box {
+  
+  padding: 30px;
+  border: 9px double #2C6E49;
+  border-radius: 40px 40px 40px 0px;
+  font-size: medium;
+}
+
+.work{
+  display: flex;
+  padding: 30px;
 }
 
 ul.contact {
     display: flex;
     text-align: right;
     justify-content: space-between;
-    min-width: 300px;
+    min-width: 800px;
     color: #b9C6ae;
-    font-size: medium
+    font-size: 150%;
     text-decoration: underline;
-    margin: 5px 5px 5px 20px;
+    margin: 75px 115px 5px 20px;
 }
+
+.contactRow{
+  display: flex;
+  padding: 30px;
+}
+
