@@ -1,2 +1,3 @@
-# Homework2
-THIS IS MY ADVANCED CSS PROJECT
+# Portfolio Wedsite
+
+This is my online profolio and resume
