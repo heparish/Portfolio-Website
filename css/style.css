@@ -147,6 +147,10 @@ img {
      height: auto;
 }
 
+.me {
+     border-radius: 50%;
+   }
+
  :focus {
      outline: 0;
 }

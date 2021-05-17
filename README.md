@@ -1,3 +1,3 @@
 # Portfolio Wedsite
 
-This is my online profolio and resume
+This is my online portfolio and resume
