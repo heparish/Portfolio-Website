@@ -4,10 +4,10 @@ This is my online portfolio and resume. On this site you can find all my informa
 
 # Links
 
-[GitHub] (https://github.com/heparish)
-[Find-a-Beer] (https://heparish.github.io/Project_One/)
-[Weather-App] (https://github.com/heparish/Weather-App)
-[Random-Password-Generator] (https://github.com/heparish/Random-Password-Generator)
+* [GitHub] (https://github.com/heparish)
+* [Poke-Pound] (https://pokemonstore1.herokuapp.com/)
+* [Back-End-E-Commerce-App] (https://github.com/heparish/bank-app)
+* [Employee-Tracker] (https://github.com/heparish/Employee-Trackerr)
 LinkedIn- Coming soon...
 
 # License 
